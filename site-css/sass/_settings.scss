@@ -19,6 +19,7 @@ $lightGrey: #dedede;
 $pyspringsOrange: #faa524;
 $pyspringsGreen: #759236;
 $pyspringsDarkGreen: #0f1b0d;
+$pyspringsMedGreen: #214E27;
 
 $bannerDark: #8f8f8f;
 $bannerLight: #fa6f23;
@@ -27,6 +28,9 @@ $bannerLight: #fa6f23;
 //$mainColor: darken($pyspringsGreen, 10%);
 $mainColor: $pyspringsGreen;
 $secondaryColor: $pyspringsOrange;
+$tertiaryColor: $pyspringsDarkGreen;
+$quaternaryColor: $pyspringsMedGreen;
+
 // $alertColor: #c60f13;
 // $successColor: #5da423;
 // $txtColor: #222;
@@ -127,4 +131,10 @@ $classPrefix: "foundicon-";
     font-weight: normal;
     font-style: normal;
   }
+}
+
+@mixin font-style($color, $size, $style){
+  color: $color;
+  font-size: $size;
+  font-style: $style;  
 }

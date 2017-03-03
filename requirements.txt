@@ -17,3 +17,4 @@ timed==0.35
 Unidecode==0.4.20
 virtualenv-clone==0.2.6
 Yapsy==1.11.223
+libsass=0.12.3

@@ -30,7 +30,7 @@ li p, td p, dd p, dt p { margin: 0em; }
 dt { font-weight: bold; }
 a img { border: none; }
 
-a { color: #17d; text-decoration: none; }
+a { color: $pyspringsMedGreen; text-decoration: none; }
 a:hover, a:visited:hover, a.nonexistent:hover { color: #f06000; }
 a:visited { color: #05a; }
 a.nonexistent { color: #999; }
